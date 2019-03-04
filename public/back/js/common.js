@@ -1,5 +1,6 @@
 
-$(document).ajaxStart(function () {
+$(document)
+    .ajaxStart(function () {
     NProgress.start()
 }).ajaxStop(function () {
     setInterval(function () {
