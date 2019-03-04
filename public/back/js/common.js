@@ -2,5 +2,7 @@
 $(document).ajaxStart(function () {
     NProgress.start()
 }).ajaxStop(function () {
-    NProgress.done()
+    setInterval(function () {
+        NProgress.done()
+    },5000)
 })
