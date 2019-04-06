@@ -175,3 +175,8 @@ input,textarea{
 .lt_main .breadcrumb li:first-of-type a {
     color: #337ab7;;
 }
+.lt_main .echarts-1,
+.lt_main .echarts-2 {
+    width: 48%;
+    height: 400px;
+}

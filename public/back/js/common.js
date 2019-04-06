@@ -9,14 +9,12 @@ $(document)
 });
 
 //登录拦截功能
-$(function () {
     if (location.href.indexOf('login.html') === -1){
         $.ajax({
             method:'get',
             url:'/employee/checkRootLogin',
             dataType:'json',
             success:function (info) {
-                console.log(info);
                 if (info.success){
 
                 }else if(info.error === 400){
@@ -25,7 +23,7 @@ $(function () {
             }
         })
     }
-});
+
 
 
 $(function ($) {
