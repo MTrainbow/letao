@@ -62,6 +62,12 @@ input,textarea{
 .red {
     color: #A94442;
 }
+/*table的居中*/
+.table.table-bordered th,
+.table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
+}
 
 /*******/
 .body_bg {
@@ -175,8 +181,12 @@ input,textarea{
 .lt_main .breadcrumb li:first-of-type a {
     color: #337ab7;;
 }
+
+/*canvas 显示*/
 .lt_main .echarts-1,
 .lt_main .echarts-2 {
     width: 48%;
     height: 400px;
 }
+
+
